@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-
+<calculator></calculator>
 </template>
 
 <script>
-
+import Calculator from './components/Calculator.vue'
 
 export default {
   name: 'App',
   components: {
-
+    Calculator
   }
 }
 </script>
